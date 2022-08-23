@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+.dream-big {
+    margin: 120px;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -24,6 +28,16 @@ section {
     width: 80%;
 }
 
+
+.halff-width {
+    width: 50%;
+
+}
+
+.halff-width img {
+    width: 100%;
+}
+
 .hire_button {
     background-image: linear-gradient(orange, tomato);
     color: white;
@@ -37,4 +51,10 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
